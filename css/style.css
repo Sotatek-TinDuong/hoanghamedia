@@ -195,9 +195,6 @@ img {
   padding: 0 10px 0 0;
   float: right;
 }
-.top-header .logo-wrapper {
-  float: left;
-}
 .top-header {
   width: 100%;
   min-height: 90px;
@@ -293,9 +290,6 @@ img {
   .text_left_inner p a,
   .text_left_inner p span {
     font-size: 10px !important;
-  }
-  .logo-wrapper img {
-    display: none;
   }
 }
 @media (max-width: 480px) {
@@ -1361,7 +1355,6 @@ img {
   color: #ff5b02;
 }
 .home-blog .item {
-  float: left;
   width: 100%;
   display: inline-block;
   margin-bottom: 20px;
@@ -1447,15 +1440,15 @@ img {
   text-overflow: ellipsis;
 }
 .home-box-lightbox {
-  margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .home-box-lightbox a {
   display: inline-block;
-  width: calc(50% - 15px);
-  float: left;
-  margin-bottom: 15px;
+  width: calc(50% - 10px);
   overflow: hidden;
-  margin-left: 15px;
+  margin-bottom: 10px;
   position: relative;
 }
 .home-box-lightbox a:after {
@@ -1821,7 +1814,7 @@ input.search-auto.form-control::placeholder {
 }
 footer .site-footer h4 {
   position: relative;
-  color: #e4b95b;
+  color: #ffffff;
   margin: 0;
   padding: 13px 0 20px;
   font-size: 20px;
@@ -1883,7 +1876,7 @@ footer .list-menu.social-media-footer a {
   border: none;
 }
 footer .list-menu.social-media-footer a i {
-  color: #cdcdcd;
+  color: #ffffff;
 }
 
 footer .list-menu.social-media-footer a i {
@@ -2693,6 +2686,15 @@ ul.level0 {
   vertical-align: top;
 }
 
+.gift-table table tbody tr td .icon-gift {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  margin-right: 5px;
+  color: #f35925;
+  font-weight: 600;
+}
+
 .awe-section-6 {
   margin-bottom: 50px;
 }
@@ -2739,4 +2741,11 @@ ul.level0 {
 
 .form-tuvan button i {
   margin-right: 7px;
+}
+
+.wrap-partner {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
 }
