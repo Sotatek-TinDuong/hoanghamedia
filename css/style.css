@@ -1893,7 +1893,7 @@ footer .list-menu.social-media-footer a {
   line-height: 36px;
 }
 .footer {
-  background: #ff5b02;
+  background: #00759a;
 }
 .breadcrumb_background {
   background-image: url(../images/image_49309.jpg);
@@ -2019,7 +2019,7 @@ footer .list-menu.social-media-footer a {
   font-size: 16px;
   font-weight: bold;
   padding: 5px 20px;
-  background-color: #ff5b02;
+  background-color: #15759a;
 }
 .title_module h2 a,
 .title_module h2 span,
@@ -2036,7 +2036,7 @@ footer .list-menu.social-media-footer a {
   height: 0;
   border-style: solid;
   border-width: 20px 0 20px 20px;
-  border-color: transparent transparent transparent #ff5b02;
+  border-color: transparent transparent transparent #15759a;
 }
 .aside_support .support_content .list_support ul li a .ico .fa.fa-skype {
   color: #42afed;
@@ -2487,7 +2487,7 @@ ul.level0 {
 }
 .hotline-header .icon-phone {
   font-size: 40px;
-  color: #ff5b02;
+  color: #15759a;
   margin-right: 10px;
 }
 .hotline-header p {
@@ -2549,7 +2549,7 @@ ul.level0 {
   width: 20px;
   text-align: center;
   margin-right: 5px;
-  color: #ff5b02;
+  color: #00759a;
 }
 
 .list-room .box-info .wrap_price_item {
@@ -2557,6 +2557,10 @@ ul.level0 {
 }
 
 .list-room .box-info .wrap_price_item .views_details {
+  color: #00759a;
+}
+
+.list-room .box-info .wrap_price_item .views_details:hover {
   color: #ff5b02;
 }
 
@@ -2725,14 +2729,14 @@ ul.level0 {
   padding: 10px 35px;
   font-weight: 600;
   text-transform: uppercase;
-  background: #f35925;
+  background: #00759a;
   color: #ffffff;
   font-size: 16px;
   margin-top: 12px;
 }
 .form-tuvan button:hover {
   color: #ffffff;
-
+  background: #f35925;
 }
 
 .form-tuvan button i {
@@ -2785,6 +2789,19 @@ ul.level0 {
 .list-blogs .blogs-rights {
   padding-left: 80px;
 }
+.list-blogs .blogs-rights .views_details {
+  color: #00759a;
+  font-size: 12px;
+}
+
+.list-blogs .blogs-rights .views_details:hover {
+  color: #ff5b02;
+}
+
+.list-blogs .blogs-rights .views_details i {
+  margin-left: 5px;
+}
+
 .list-blogs .post-time {
   font-size: 11px;
   font-style: italic;
@@ -2815,4 +2832,22 @@ ul.level0 {
 
 .content-col-750 .titel-detail h1 {
   margin-top: 0;
+}
+
+#es_product_list .box-title h3 {
+  color: #333333;
+  position: relative;
+  margin-top: 0;
+  border-bottom: 2px solid #ebebeb;
+  padding-bottom: 7px;
+  margin-bottom: 10px;
+}
+
+#es_product_list .box-title h3::before {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background: #ff5b02;
+  position: absolute;
+  bottom: -1px;
 }
