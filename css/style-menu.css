@@ -226,7 +226,7 @@ main#content {
         transform: translateX(250px);
     }
     html.open-menu nav#menu {
-        z-index: 3;
+        z-index: 30;
         transform: translateX(0);
     }
 }
