@@ -2837,7 +2837,8 @@ ul.level0 {
 }
 
 #es_product_list .box-title h3,
-#es_news .box-title h3 {
+#es_news .box-title h3,
+#es_news_detail .box-title h3{
   color: #333333;
   position: relative;
   margin-top: 0;
@@ -2847,7 +2848,8 @@ ul.level0 {
 }
 
 #es_product_list .box-title h3::before,
-#es_news .box-title h3::before {
+#es_news .box-title h3::before,
+#es_news_detail .box-title h3::before {
   content: "";
   width: 80px;
   height: 2px;
@@ -3008,4 +3010,30 @@ ul.level0 {
 .flex-wrap {
   display: flex;
   flex-wrap: wrap;
+}
+
+.related-news {
+  margin-top: 30px;
+}
+
+.related-news ul li {
+  line-height: 30px;
+  border-bottom: dashed 1px #ebebeb;
+}
+
+.related-news ul li a {
+  font-size: 13px;
+  display: block;
+}
+
+.related-news ul li a:hover {
+  color: #f95b03;
+}
+
+.related-news ul li a span {
+  float: right;
+}
+
+.related-news ul li a i {
+  margin-right: 5px;
 }
