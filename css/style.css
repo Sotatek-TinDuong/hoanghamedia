@@ -3059,3 +3059,29 @@ ul.level0 {
   color: #1a759a;
   margin-right: 5px;
 }
+.div_banner_fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+div#gotop {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #f35925;
+  border-radius: 5px;
+  font-size: 19px;
+  color: #ffffff;
+  right: -60px;
+  bottom: 50px;
+  cursor: pointer;
+  position: fixed;
+  z-index: 50;
+}
+
+.go-top-show {
+  right: 20px !important;
+}

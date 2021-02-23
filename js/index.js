@@ -174,6 +174,28 @@ $("#owl-partner-home").owlCarousel({
     },
   },
 });
+jQuery("document").ready(function ($) {
+  var nav = $('#navBar');
+  var gotop = $("#gotop");
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 150) {
+      nav.addClass("div_banner_fixed");
+    } else {
+      nav.removeClass("div_banner_fixed");
+    }
+
+    if ($(this).scrollTop() > 300) {
+      gotop.addClass("go-top-show");
+    } else {
+      gotop.removeClass("go-top-show");
+    }
+  });
+
+  gotop.click(function () {
+    $("html, body").animate({scrollTop: 0}, 300);
+  });
+});
+
 //js tab-home
 $(document).ready(function () {
   $(".circle-container .learning-item").click(function () {
