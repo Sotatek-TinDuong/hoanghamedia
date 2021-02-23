@@ -2838,7 +2838,8 @@ ul.level0 {
 
 #es_product_list .box-title h3,
 #es_news .box-title h3,
-#es_news_detail .box-title h3{
+#es_news_detail .box-title h3,
+#es_contact .box-title h3 {
   color: #333333;
   position: relative;
   margin-top: 0;
@@ -2849,7 +2850,8 @@ ul.level0 {
 
 #es_product_list .box-title h3::before,
 #es_news .box-title h3::before,
-#es_news_detail .box-title h3::before {
+#es_news_detail .box-title h3::before,
+#es_contact .box-title h3::before {
   content: "";
   width: 80px;
   height: 2px;
@@ -3035,5 +3037,25 @@ ul.level0 {
 }
 
 .related-news ul li a i {
+  margin-right: 5px;
+}
+
+.contact-page-detail {
+  padding: 10px;
+  border: 1px solid #ebebeb;
+}
+
+.contact-page-detail h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #f95b03;
+}
+
+.contact-page-detail ul li {
+  line-height: 30px;
+}
+
+.contact-page-detail ul li i {
+  color: #1a759a;
   margin-right: 5px;
 }
